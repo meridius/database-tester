@@ -1,0 +1,33 @@
+{
+	"name": "meridius/database-tester",
+	"type": "library",
+	"description": "Collection of classes intended to ease concurrent integration database testing with Nette/Database and Nette/Tester",
+	"keywords": ["nette", "database", "testing", "tester", "integration", "concurrent"],
+	"homepage": "https://github.com/meridius/database-tester",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Martin Lukeš",
+			"homepage": "https://github.com/meridius/database-tester"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/meridius/database-tester/issues"
+	},
+	"require": {
+		"nette/tester": "^1.6",
+		"nette/database": "^2.3",
+		"nette/di": "^2.3",
+		"nette/bootstrap": "^2.3",
+		"nette/robot-loader": "^2.3",
+		"tracy/tracy": "^2.3"
+	},
+	"autoload": {
+		"psr-0": {
+			"Meridius\\DatabaseTester\\": "src/"
+		}
+	},
+	"require-dev": {
+		"nette/tester": "^1.6"
+	}
+}
